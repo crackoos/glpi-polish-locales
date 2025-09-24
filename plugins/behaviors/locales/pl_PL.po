@@ -1,0 +1,288 @@
+# Polish translation for GLPI - Behaviors plugin
+# Copyright (C) 2025 Behaviors Development Team
+# This file is distributed under the same license as the GLPI - Behaviors plugin package.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: GLPI - Behaviors plugin\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-07-25 09:14+0000\n"
+"PO-Revision-Date: 2025-09-22 09:54+0200\n"
+"Last-Translator: wkr\n"
+"Language-Team: Polish <pl@li.org>\n"
+"Language: pl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Poedit 3.7\n"
+
+#: setup.php:116 inc/common.class.php:107 inc/config.class.php:60
+#: inc/document_item.class.php:51 inc/document_item.class.php:58
+#: inc/ticket.class.php:58 inc/ticket.class.php:65 inc/ticket.class.php:72
+#: inc/ticket.class.php:95 inc/ticket.class.php:103 inc/ticket.class.php:111
+#: inc/ticket.class.php:119 inc/ticket.class.php:127 inc/ticket.class.php:135
+msgid "Behaviours"
+msgstr "Zachowania"
+
+#: inc/change.class.php:108 inc/common.class.php:381
+#: inc/itilsolution.class.php:291
+msgid "You cannot solve/close a change with task do to"
+msgstr "Nie można rozwiązać/zamknąć zmiany z zadaniami do wykonania"
+
+#: inc/changetask.class.php:68
+msgid "You cannot change status of a task in a solved change"
+msgstr "Nie można zmienić statusu zadania w rozwiązanej zmianie"
+
+#: inc/common.class.php:106 inc/common.class.php:124 inc/common.class.php:158
+msgid "Clone"
+msgstr "Klonuj"
+
+#: inc/common.class.php:147 inc/common.class.php:253
+msgid "Clone of"
+msgstr "Klon z"
+
+#: inc/common.class.php:307 inc/config.class.php:559
+#: inc/itilsolution.class.php:93 inc/ticket.class.php:948
+msgid "Duration is mandatory before ticket is solved/closed"
+msgstr "Czas trwania jest obowiązkowy przed rozwiązaniem/zamknięciem zgłoszenia"
+
+#: inc/common.class.php:312 inc/config.class.php:506
+#: inc/itilsolution.class.php:165 inc/ticket.class.php:961
+msgid "Category is mandatory before ticket is solved/closed"
+msgstr "Kategoria jest obowiązkowa przed rozwiązaniem/zamknięciem zgłoszenia"
+
+#: inc/common.class.php:320 inc/config.class.php:458
+#: inc/itilsolution.class.php:179 inc/ticket.class.php:975
+msgid "Technician assigned is mandatory before ticket is solved/closed"
+msgstr "Przypisany technik jest obowiązkowy przed rozwiązaniem/zamknięciem zgłoszenia"
+
+#: inc/common.class.php:329 inc/config.class.php:484
+#: inc/itilsolution.class.php:192 inc/ticket.class.php:988
+msgid "Group of technicians assigned is mandatory before ticket is solved/closed"
+msgstr "Grupa przypisanych techników jest obowiązkowa przed rozwiązaniem/zamknięciem zgłoszenia"
+
+#: inc/common.class.php:337 inc/config.class.php:515
+#: inc/itilsolution.class.php:205 inc/ticket.class.php:1001
+msgid "Location is mandatory before ticket is solved/closed"
+msgstr "Lokalizacja jest obowiązkowa przed rozwiązaniem/zamknięciem zgłoszenia"
+
+#: inc/common.class.php:349 inc/itilsolution.class.php:224
+#: inc/ticket.class.php:1019
+msgid "You cannot solve/close a ticket with task do to"
+msgstr "Nie można rozwiązać/zamknąć zgłoszenia z zadaniami do wykonania"
+
+#: inc/common.class.php:365 inc/itilsolution.class.php:264
+msgid "You cannot solve/close a problem with task do to"
+msgstr "Nie można rozwiązać/zamknąć problemu z zadaniami do wykonania"
+
+#: inc/common.class.php:417
+msgid "You must add a description. it's mandatory"
+msgstr "Musisz dodać opis, jest to obowiązkowe"
+
+#: inc/common.class.php:423
+msgid "You must add a solution type. it's mandatory"
+msgstr "Musisz dodać typ rozwiązania, jest to obowiązkowe"
+
+#: inc/common.class.php:428
+msgid "You cannot resolve the ticket"
+msgstr "Nie możesz rozwiązać zgłoszenia"
+
+#: inc/common.class.php:451 inc/tickettask.class.php:64
+#: inc/tickettask.class.php:103
+msgid "You must define a category. it's mandatory"
+msgstr "Musisz zdefiniować kategorię, jest to obowiązkowe"
+
+#: inc/config.class.php:125
+msgid "Error in creating glpi_plugin_behaviors_configs"
+msgstr "Błąd podczas tworzenia glpi_plugin_behaviors_configs"
+
+#: inc/config.class.php:134
+msgid "Error during update glpi_plugin_behaviors_configs"
+msgstr "Błąd podczas aktualizacji glpi_plugin_behaviors_configs"
+
+#: inc/config.class.php:292
+msgid "Inventory"
+msgstr "Inwentarz"
+
+#: inc/config.class.php:296
+msgid "Ticket's number format"
+msgstr "Format numeru zgłoszenia"
+
+#: inc/config.class.php:306
+msgid "Delete computer in OCSNG when purged from GLPI"
+msgstr "Usuń komputer w OCSNG po usunięciu z GLPI"
+
+#: inc/config.class.php:312
+msgid "Plugin \"Item's uninstallation\" not installed"
+msgstr "Wtyczka \"Deinstalacja elementu\" nie jest zainstalowana"
+
+#: inc/config.class.php:315
+msgid "Plugin \"OCS Inventory NG\" not installed"
+msgstr "Wtyczka \"OCS Inventory NG\" nie jest zainstalowana"
+
+#: inc/config.class.php:321
+msgid "Use the associated item's group"
+msgstr "Użyj grupy powiązanego elementu"
+
+#: inc/config.class.php:323
+msgid "Show my assets"
+msgstr "Pokaż moje zasoby"
+
+#: inc/config.class.php:328
+msgid "Use the requester's group"
+msgstr "Użyj grupy zgłaszającego"
+
+#: inc/config.class.php:334
+msgid "Show assets of my groups"
+msgstr "Pokaż zasoby moich grup"
+
+#: inc/config.class.php:339 inc/config.class.php:379
+msgid "Use the technician's group"
+msgstr "Użyj grupy technika"
+
+#: inc/config.class.php:346
+msgid "Notification"
+msgid_plural "Notifications"
+msgstr[0] "Powiadomienie"
+msgstr[1] "Powiadomienia"
+msgstr[2] "Powiadomień"
+
+#: inc/config.class.php:356
+msgid "Additional notifications"
+msgstr "Dodatkowe powiadomienia"
+
+#: inc/config.class.php:361 inc/ticket.class.php:1039
+msgid "Category is mandatory when you assign a ticket"
+msgstr "Kategoria jest obowiązkowa przy przypisywaniu zgłoszenia"
+
+#: inc/config.class.php:368
+msgid "Allow Clone"
+msgstr "Zezwól na klonowanie"
+
+#: inc/config.class.php:372
+msgid "In the active entity"
+msgstr "W aktywnej jednostce"
+
+#: inc/config.class.php:373
+msgid "In the item's entity"
+msgstr "W jednostce elementu"
+
+#: inc/config.class.php:390
+msgid "Task category is mandatory in a task"
+msgstr "Kategoria zadania jest obowiązkowa w zadaniu"
+
+#: inc/config.class.php:397 inc/itilsolution.class.php:245
+#: inc/problem.class.php:79
+msgid "Type of solution is mandatory before problem is solved/closed"
+msgstr "Typ rozwiązania jest obowiązkowy przed rozwiązaniem/zamknięciem problemu"
+
+#: inc/config.class.php:406
+msgid "Deny change of ticket's creation date"
+msgstr "Zablokuj zmianę daty utworzenia zgłoszenia"
+
+#: inc/config.class.php:409
+msgid "Block the solving/closing of a problem if task do to"
+msgstr "Zablokuj rozwiązywanie/zamykanie problemu jeśli są zadania do wykonania"
+
+#: inc/config.class.php:415
+msgid "Single technician and group"
+msgstr "Pojedynczy technik i grupa"
+
+#: inc/config.class.php:418
+msgid "Single user and single group"
+msgstr "Pojedynczy użytkownik i pojedyncza grupa"
+
+#: inc/config.class.php:419
+msgid "Single user or group"
+msgstr "Pojedynczy użytkownik lub grupa"
+
+#: inc/config.class.php:431
+msgid "Technician assignment when adding follow up"
+msgstr "Przypisanie technika przy dodawaniu śledzenia"
+
+#: inc/config.class.php:432
+msgid "The technician must belong to the group assigned to the ticket"
+msgstr "Technik musi należeć do grupy przypisanej do zgłoszenia"
+
+#: inc/config.class.php:439
+msgid "Change's number format"
+msgstr "Format numeru zmiany"
+
+#: inc/config.class.php:452
+msgid "Adding the ticket solution"
+msgstr "Dodawanie rozwiązania zgłoszenia"
+
+#: inc/config.class.php:467
+msgid "Block the solving/closing of a change if task do to"
+msgstr "Zablokuj rozwiązywanie/zamykanie zmiany jeśli są zadania do wykonania"
+
+#: inc/config.class.php:473
+msgid "Set the solution writer as the technician of the ticket"
+msgstr "Ustaw autora rozwiązania jako technika zgłoszenia"
+
+#: inc/config.class.php:527 inc/itilsolution.class.php:80
+#: inc/itilsolution.class.php:348 inc/ticket.class.php:926
+msgid "Description of solution is mandatory before ticket is solved/closed"
+msgstr "Opis rozwiązania jest obowiązkowy przed rozwiązaniem/zamknięciem zgłoszenia"
+
+#: inc/config.class.php:541 inc/itilsolution.class.php:67
+#: inc/itilsolution.class.php:333 inc/ticket.class.php:914
+msgid "Type of solution is mandatory before ticket is solved/closed"
+msgstr "Typ rozwiązania jest obowiązkowy przed rozwiązaniem/zamknięciem zgłoszenia"
+
+#: inc/config.class.php:552
+msgid "Block the solving/closing of a the ticket if task do to"
+msgstr "Zablokuj rozwiązywanie/zamykanie zgłoszenia jeśli są zadania do wykonania"
+
+#: inc/document_item.class.php:52
+msgid "Add document to ticket"
+msgstr "Dodaj dokument do zgłoszenia"
+
+#: inc/document_item.class.php:59
+msgid "Delete document to ticket"
+msgstr "Usuń dokument ze zgłoszenia"
+
+#: inc/problemtask.class.php:68
+msgid "You cannot change status of a task in a solved problem"
+msgstr "Nie można zmienić statusu zadania w rozwiązaniu problemu"
+
+#: inc/ticket.class.php:59
+msgid "Reopen ticket"
+msgstr "Ponownie otwórz zgłoszenie"
+
+#: inc/ticket.class.php:66
+msgid "Change status"
+msgstr "Zmień status"
+
+#: inc/ticket.class.php:73
+msgid "Ticket waiting"
+msgstr "Oczekiwanie na zgłoszenie"
+
+#: inc/ticket.class.php:94
+msgid "Last technician assigned"
+msgstr "Ostatnio przypisany technik"
+
+#: inc/ticket.class.php:102
+msgid "Last group assigned"
+msgstr "Ostatnio przypisana grupa"
+
+#: inc/ticket.class.php:110
+msgid "Last supplier assigned"
+msgstr "Ostatnio przypisany dostawca"
+
+#: inc/ticket.class.php:118
+msgid "Last watcher added"
+msgstr "Ostatnio dodany obserwator"
+
+#: inc/ticket.class.php:126
+msgid "Supervisor of last group assigned"
+msgstr "Kierownik ostatnio przypisanej grupy"
+
+#: inc/ticket.class.php:134
+msgid "Last group assigned without supersivor"
+msgstr "Ostatnio przypisana grupa bez kierownika"
+
+#: inc/tickettask.class.php:124
+msgid "You cannot change status of a task in a solved ticket"
+msgstr "Nie można zmienić statusu zadania w rozwiązaniu zgłoszenia"

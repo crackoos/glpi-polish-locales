@@ -1,0 +1,325 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Translators:
+# awiamo, 2015-2017
+# Jacek Maciol <jmaciol@rabawyzna.pl>, 2017
+msgid ""
+msgstr ""
+"Project-Id-Version: GLPI Plugin - Fields\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-02-10 01:02+0000\n"
+"PO-Revision-Date: 2025-09-22 09:55+0200\n"
+"Last-Translator: wkr\n"
+"Language-Team: Polish (Poland) (http://app.transifex.com/teclib/glpi-plugin-plugin-fields/language/pl_PL/)\n"
+"Language: pl_PL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n==1 ? 0 : (n%10>=2 && n%10<=4) && (n%100<12 || n%100>14) ? 1 : n!=1 && (n%10>=0 && n%10<=1) || (n%10>=5 && n%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);\n"
+"X-Generator: Poedit 3.7\n"
+
+#: inc/checkdatabasecommand.class.php:47
+#, php-format
+msgid "- some deleted fields may still be present in database (bug introduced in version %s and fixed in version %s)"
+msgstr "- niektóre usunięte pola mogą nadal występować w bazie danych (błąd wprowadzony w wersji %s i naprawiony w wersji %s)"
+
+#: inc/checkdatabasecommand.class.php:87
+#, php-format
+msgid "-> \"%s.%s\" has been deleted."
+msgstr "-> \"%s.%s\" zostało usunięte."
+
+#: inc/checkdatabasecommand.class.php:88
+#, php-format
+msgid "-> \"%s.%s\" should be deleted."
+msgstr "-> \"%s.%s\" powinno zostać usunięte."
+
+#: inc/field.class.php:608
+msgid "Add a new field"
+msgstr "Dodaj nowe pole"
+
+#: templates/container_display_conditions.html.twig
+msgid "Add condition to hide block"
+msgstr "Dodaj warunek ukrycia bloku"
+
+#: templates/status_overrides.html.twig
+msgid "Add new status override"
+msgstr "Dodaj nowe nadpisanie statusu"
+
+#: inc/container.class.php:1040
+msgid "Add tab"
+msgstr "Dodaj zakładkę"
+
+#: front/container.php:34 front/container.form.php:63 inc/menu.class.php:37
+#: setup.php:223
+msgid "Additional fields"
+msgstr "Dodatkowe pola"
+
+#: ajax/field_specific_fields.php:53
+msgid "Allowed values"
+msgstr "Dozwolone wartości"
+
+#: inc/container.class.php:781
+msgid "Block"
+msgstr "Blok"
+
+#: inc/checkdatabasecommand.class.php:42
+msgid "Check database to detect inconsistencies."
+msgstr "Sprawdź bazę danych w celu wykrycia niespójności."
+
+#: inc/toolbox.class.php:322
+msgid "Component items"
+msgstr "Elementy komponentu"
+
+#: templates/container_display_conditions.html.twig
+#: inc/containerdisplaycondition.class.php:155
+msgid "Condition to hide block"
+msgid_plural "Conditions to hide block"
+msgstr[0] "Warunek ukrycia bloku"
+msgstr[1] "Warunki ukrycia bloku"
+msgstr[2] "Warunki ukrycia bloku"
+msgstr[3] "Warunki ukrycia bloku"
+
+#: inc/container.class.php:600
+msgid "Container name is too long for database (digits in name are replaced by characters, try to remove them)"
+msgstr "Nazwa kontenera jest zbyt długa dla bazy danych (cyfry w nazwie są zastępowane znakami, spróbuj je usunąć)"
+
+#: inc/checkdatabasecommand.class.php:81
+#, php-format
+msgid "Database contains orphaned data from %s improperly deleted field(s)."
+msgstr "Baza danych zawiera osierocone dane z %s nieprawidłowo usuniętych pól."
+
+#: inc/checkdatabasecommand.class.php:80
+#, php-format
+msgid "Database was containing orphaned data from %s improperly deleted field(s)."
+msgstr "Baza danych zawierała osierocone dane z %s nieprawidłowo usuniętych pól."
+
+#: inc/field.class.php:1343
+msgid "Date"
+msgstr "Data"
+
+#: inc/field.class.php:1344
+msgid "Date & time"
+msgstr "Data & czas"
+
+#: ajax/field_specific_fields.php:90
+msgid "Default value"
+msgstr "Wartość domyślna"
+
+#: ajax/field_specific_fields.php:121
+msgid "Default value will be configurable once field will be created."
+msgstr "Wartość domyślna będzie konfigurowalna po utworzeniu pola."
+
+#: inc/field.class.php:1341
+msgid "Dropdown"
+msgstr "Lista rozwijana"
+
+#: inc/checkdatabasecommand.class.php:72
+msgid "Everything is in order - no action needed."
+msgstr "Wszystko jest w porządku - nie jest wymagane żadne działanie."
+
+#: inc/container.class.php:53 inc/container.class.php:790
+msgid "Export to YAML"
+msgstr "Eksportuj do YAML"
+
+#: templates/forms/status_override.html.twig inc/field.class.php:243
+msgid "Field"
+msgstr "Pole"
+
+#: inc/field.class.php:258 inc/field.class.php:285
+msgid "Field name is too long for database (digits in name are replaced by characters, try to remove them)"
+msgstr "Nazwa pola jest zbyt długa dla bazy danych (cyfry w nazwie są zastępowane znakami, spróbuj je usunąć)"
+
+#: inc/field.class.php:545
+msgid "Fields"
+msgstr "Pola"
+
+#: inc/container.class.php:211
+msgid "Fix container names"
+msgstr "Napraw nazwy kontenerów"
+
+#: inc/toolbox.class.php:122
+msgid "Fix fields names"
+msgstr "Napraw nazwy pól"
+
+#: inc/field.class.php:1345
+msgid "GLPI item"
+msgstr "Element GLPI"
+
+#: inc/field.class.php:1335
+msgid "Header"
+msgstr "Nagłówek"
+
+#: inc/container.class.php:1041
+msgid "Insertion in the form (before save button)"
+msgstr "Dodawanie danych w formularzu (przed przyciskiem zapisz)"
+
+#: inc/container.class.php:1042
+msgid "Insertion in the form of a specific tab (before save button)"
+msgstr "Dodawanie danych w formularzu w konkretnej karcie (przed przyciskiem zapisz)"
+
+#: inc/labeltranslation.class.php:205
+msgid "Label"
+msgstr "Etykieta"
+
+#: inc/labeltranslation.class.php:204
+msgid "Language"
+msgstr "Język"
+
+#: ajax/field_specific_fields.php:87
+msgid "Multiple dropdown"
+msgstr "Wielokrotny dropdown"
+
+#: hook.php:55 hook.php:59
+msgid "MySQL tables installation"
+msgstr "Instalacja tabel MYSQL"
+
+#: hook.php:122
+msgid "MySQL tables uninstallation"
+msgstr "Deinstalacja tabel MYSQL"
+
+#: inc/field.class.php:612
+msgid "No field for this block"
+msgstr "Brak pola dla tego bloku"
+
+#: templates/status_overrides.html.twig
+msgid "No item found"
+msgstr "Nie znaleziono elementu"
+
+#: inc/field.class.php:1339
+msgid "Number"
+msgstr "Liczba"
+
+#: inc/statusoverride.class.php:90
+msgid "Override by status"
+msgstr "Nadpisz według statusu"
+
+#: templates/forms/status_override.html.twig inc/field.class.php:625
+#: inc/field.class.php:805
+msgid "Read only"
+msgstr "Tylko do odczytu"
+
+#: inc/container.class.php:52
+msgid "Regenerate container files"
+msgstr "Regeneruj pliki kontenera"
+
+#: inc/container.class.php:190
+msgid "Regenerate containers files"
+msgstr "Regeneruj pliki kontenerów"
+
+#: inc/command/regeneratefilescommand.class.php:41
+msgid "Regenerates containers files."
+msgstr "Regeneruje pliki kontenerów."
+
+#: inc/field.class.php:1338
+msgid "Rich Text"
+msgstr "Tekst sformatowany"
+
+#: inc/checkdatabasecommand.class.php:97
+#, php-format
+msgid "Run \"%s\" to fix database inconsistencies."
+msgstr "Uruchom \"%s\", aby naprawić niespójności bazy danych."
+
+#: inc/container.class.php:1550
+msgid "Some URL fields contains invalid links"
+msgstr "Niektóre pola zawierają nieprawidłowe linki URL"
+
+#: inc/container.class.php:1540
+msgid "Some mandatory fields are empty"
+msgstr "Niektóre wymagane pola są puste"
+
+#: inc/container.class.php:1545
+msgid "Some numeric fields contains non numeric values"
+msgstr "Niektóre pola numeryczne zawierają wartości inne niż liczby"
+
+#: templates/status_overrides.html.twig
+msgid "Status overrides"
+msgstr "Nadpisania statusu"
+
+#: inc/container.class.php:886
+msgid "Tab"
+msgstr "Zakładka"
+
+#: inc/field.class.php:1337
+msgid "Text (multiples lines)"
+msgstr "Tekst (wiele linii)"
+
+#: inc/field.class.php:1336
+msgid "Text (single line)"
+msgstr "Tekst (pojedyncza linia)"
+
+#: hook.php:109
+msgid "The plugin can't be uninstalled when the plugin is disabled"
+msgstr "Wtyczka nie może zostać odinstalowana kiedy jest wyłączona"
+
+#: inc/checkdatabasecommand.class.php:44
+msgid "This command will check database to detect following inconsistencies:"
+msgstr "To polecenie sprawdzi bazę danych w celu wykrycia następujących niespójności:"
+
+#: inc/command/regeneratefilescommand.class.php:43
+msgid "This command will clean up all files generated by the plugin and regenerate them."
+msgstr "To polecenie wyczyści wszystkie pliki wygenerowane przez wtyczkę i wygeneruje je ponownie."
+
+#: inc/field.class.php:1340
+msgid "URL"
+msgstr "URL"
+
+#: inc/container.class.php:352
+msgid "Updating generated containers files"
+msgstr "Aktualizowanie wygenerowanych plików kontenerów"
+
+#: inc/dropdown.class.php:78
+msgid "Updating generated dropdown files"
+msgstr "Aktualizowanie wygenerowanych plików list rozwijanych"
+
+#: inc/checkdatabasecommand.class.php:57
+msgid "Use this option to actually fix database"
+msgstr "Użyj tej opcji, aby faktycznie naprawić bazę danych"
+
+#: inc/field.class.php:1342
+msgid "Yes/No"
+msgstr "Tak/Nie"
+
+#: inc/field.class.php:277
+msgid "You cannot add same field 'dropdown' on same bloc"
+msgstr "Nie można dodać tego samego pola „listy rozwijanej” w tym samym bloku"
+
+#: inc/container.class.php:583
+msgid "You cannot add several blocks with type 'Insertion in the form of a specific tab' on same object tab"
+msgstr "Nie możesz dodać kilku bloków z typem 'Wstawienie w formie konkretnej zakładki' na tej samej zakładce obiektu"
+
+#: inc/container.class.php:567
+msgid "You cannot add several blocks with type 'Insertion in the form' on same object"
+msgstr "Nie możesz dodać kilku bloków z typem 'Dodawanie danych w formularzu' w tym samym obiekcie"
+
+#: inc/container.class.php:615
+msgid "You cannot add several blocs with identical name on same object"
+msgstr "Nie możesz dodać kilku bloków o identycznej nazwie w tym samym obiekcie"
+
+#: inc/containerdisplaycondition.class.php:500
+#: inc/containerdisplaycondition.class.php:516
+msgid "You must specify an item type, search option and condition."
+msgstr "Musisz określić typ elementu, opcję wyszukiwania i warunek."
+
+#: inc/containerdisplaycondition.class.php:105
+#: inc/containerdisplaycondition.class.php:139
+msgid "not under"
+msgstr "nie pod"
+
+#: inc/containerdisplaycondition.class.php:111
+#: inc/containerdisplaycondition.class.php:133
+msgid "regular expression matches"
+msgstr "dopasowanie wyrażenia regularnego"
+
+#: templates/fields.html.twig
+msgid "show"
+msgstr "pokaż"
+
+#: inc/containerdisplaycondition.class.php:104
+#: inc/containerdisplaycondition.class.php:136
+msgid "under"
+msgstr "pod"
+
+#~ msgid "You cannot add block without associated element type"
+#~ msgstr "Nie można dodać bloku bez powiązanego typu elementu"
