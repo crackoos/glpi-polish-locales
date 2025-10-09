@@ -40,7 +40,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-07-10 14:58+0200\n"
-"PO-Revision-Date: 2025-09-24 11:45+0200\n"
+"PO-Revision-Date: 2025-10-07 12:16+0200\n"
 "Last-Translator: wkr\n"
 "Language-Team: Polish (Poland) (https://app.transifex.com/glpi/teams/1637/pl_PL/)\n"
 "Language: pl_PL\n"
@@ -19295,7 +19295,7 @@ msgstr "Normalny"
 
 #: src/User.php:3419 src/CommonGLPI.php:352
 msgid "Debug"
-msgstr "Debagowanie"
+msgstr "Debugowanie"
 
 #: src/User.php:3513
 msgid "Unable to update login. A user already exists."
@@ -21837,7 +21837,7 @@ msgstr[3] "Komputery"
 
 #: src/Computer.php:622
 msgid "Computers"
-msgstr "Komputerów"
+msgstr "Komputery"
 
 #: src/Computer.php:629
 msgid "Computer UUID"
